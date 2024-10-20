@@ -55,24 +55,3 @@ After interacting with the tasks, the task will be saved automatically, rewritin
 # File Persistence:
 Tasks are stored in a file called tasks.txt.
 When you rerun the program, tasks from this file are automatically loaded.
-
-# File format
-________________________Tasks________________________
-|----|---------------------|------------|-----------|
-| Id |     Description     |    Date    | Completed |
-|----|---------------------|------------|-----------|
-|   0|      DescriptionHere|  DD-MM-YYYY|        Yes|
-|----|---------------------|------------|-----------|
-
-# Example Interaction:
-You want to add a task? (0 - No, 1 - Yes)
-1
-Task description? Project
-The deadline? (DD-MM-YYYY) 30-10-2024
-The task with the id 0 was added successfully.
-________________________Tasks________________________
-|----|---------------------|------------|-----------|
-| Id |     Description     |    Date    | Completed |
-|----|---------------------|------------|-----------|
-|   0|              Project|  30-10-2024|         No|
-|----|---------------------|------------|-----------|
